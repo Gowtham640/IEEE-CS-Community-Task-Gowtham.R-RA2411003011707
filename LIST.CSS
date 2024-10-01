@@ -1,0 +1,231 @@
+body {
+    background-color:rgb(36, 34, 34);
+}
+#div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh; 
+    width: 100vw; 
+    background:linear-gradient(powderblue,skyblue);
+    box-sizing: border-box;
+}
+#para2{
+    color: azure;
+    position: fixed;
+    top: 100px;
+    animation: opacity ease-in-out infinite;
+    animation-duration: 15s;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+}
+#h1 {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(66, 97, 109);
+}
+#button3{
+    margin-top: 60px;
+}
+.b {
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 600;
+    border-style: outset;
+    border-color: silver;
+    background-color: skyblue;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 25px;
+    padding: 2px;
+    margin-left: 60px;
+}
+.b:hover {
+    background-color: rgb(199, 79, 199);
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 600;
+    border-style: outset;
+    border-color: silver;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 30px;
+    padding: 2px;
+    animation: colour infinite ease-in-out;
+    animation-duration: 2s;
+}
+.inputbutton {
+    background-color: rgba(52, 108, 145, 50);
+    border-style: outset;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-bottom-color: white;
+    margin-left: 60px;
+}
+.inputbutton:active {
+    border-bottom-color: white;
+    border-top-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+}
+.submitbutton{
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: skyblue;
+    border-style: inset;
+    margin-top:10px;
+    border-color: silver;
+    margin-left: 60px;
+}
+.submitbutton:hover {
+    background-color: rgb(199, 79, 199);
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 600;
+    border-style: outset;
+    border-color: silver;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 30px;
+    padding: 2px;
+    animation: colour infinite ease-in-out;
+    animation-duration: 2s;
+}
+.orderedlists {
+    font-family: dm sans;
+    font-weight: 600;
+    font-size: 30px;
+    color:rgb(240, 252, 240);
+    margin-left: 60px;
+    
+}
+.paras {
+    font-family: dm sans;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(36, 168, 36); 
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 60px;
+}
+#div3{
+    font-family: syne;
+    font-weight: 700;
+    font-size: 10px;
+}
+@keyframes colour {
+    0% { background-color: skyblue; }
+    50% { background-color: pink; }
+    100% { background-color: skyblue; }
+}
+@keyframes slideleft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100%{opacity: 0;}
+}
+
+@keyframes opacity{
+    0%{color: rgb(66, 97, 109); opacity: 0;}
+    50%{color:  rgb(49, 127, 158);opacity: 1;}
+    100%{color: rgb(66, 97, 109);opacity: 0;}
+}
+@Keyframes slideright{
+    from{transform: translatex(0%);}
+    to{
+        transform:translatex(-400%);
+    }
+}
+#inputpara{
+    font-size: 40px;
+    color:rgb(197, 22, 124);
+    margin-left:60px;
+}
+.ulist{
+    font-family: syne;
+    color:rgb(36, 168, 36);
+    margin-left: 60px;
+}
+#video {
+    position: fixed; 
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+    opacity: 50%;
+}
+.mark-done-button,
+.delete-button {
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: skyblue;
+    border-style: inset;
+    margin-top:10px;
+    border-color: silver;
+    margin-left: 60px;
+}
+
+.mark-done-button:hover,
+.delete-button:hover {
+    background-color: rgb(199, 79, 199);
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 600;
+    border-style: outset;
+    border-color: silver;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 30px;
+    padding: 2px;
+    animation: colour infinite ease-in-out;
+    animation-duration: 2s;
+}
+#button6{
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: skyblue;
+    border-style: inset;
+    margin-top:10px;
+    border-color: silver;
+    margin-left: 60px;
+
+}
+#button6:hover{
+    background-color: rgb(199, 79, 199);
+    height: auto;
+    width: auto;
+    font-family: dm sans;
+    font-weight: 600;
+    border-style: outset;
+    border-color: silver;
+    border-radius: 4px;
+    border-width: 3px;
+    font-size: 30px;
+    padding: 2px;
+    animation: colour infinite ease-in-out;
+    animation-duration: 2s;
+
+}

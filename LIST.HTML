@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>To do list</title>
+    <link rel="stylesheet" href="LIST.CSS">
+    <script src="list.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="div4"><h1 id="h1">Welcome to your to do list!</h1><br><br><br><br>
+        <p id="para2">'It always seems impossible until it's done.' - Nelson Mandela</p>
+    </div>
+    <div id="div3">
+        <button class="b" id="button3">New list</button><br>
+        <p id="para1"  hidden>Enter the date and day:</p>
+        <input class="inputbutton" id="inputdate" hidden><br>
+        <button class="b" id="button4" class="submitbutton" hidden>Submit date</button><br>
+
+    </div>
+    <button class="b" id="button1" height=400px hidden>Add task</button>
+    <div id="div1">
+        <br><input id="input1" class="inputbutton" hidden><br>
+        <button id="button2" class="submitbutton" hidden onclick="input()">Submit task</button>
+    </div>
+    <div id="div2">
+        <ol id="orderedlist1" class="orderedlists">
+            
+        </ol>
+        <button class="submitbutton" id="button5" hidden>End list</button>
+    </div>
+    <div id="div5">
+        <button class="inputbutton" id="button6" hidden>Update list</button>
+    </div>
+    <button id="tickbutton" hidden>OK</button>
+    <video src="bg video .mp4" autoplay loop muted id="video"></video>
+    
+   
+
+
+</body>
